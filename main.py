@@ -121,7 +121,7 @@ pick_matrix = picks.assign(Picked="✅").pivot_table(
 stage_counts = df["stage_label"].value_counts().reindex(STAGE_ORDER, fill_value=0)
 
 st.title("⚽ Winston's World Cup Fun")
-st.markdown("### Family leaderboard, team tracking, and bragging rights")
+st.markdown("### The famous leaderboard")
 
 if missing_results:
     st.warning(
