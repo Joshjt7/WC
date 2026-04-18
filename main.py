@@ -19,6 +19,7 @@ POINTS = {
 
 STAGE_LABELS = {
     "GS": "Group Stage",
+    "R32": "Round of 32",
     "R16": "Round of 16",
     "QF": "Quarterfinal",
     "SF": "Semifinal",
