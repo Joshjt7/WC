@@ -141,9 +141,9 @@ with tab1:
     st.subheader("Leaderboard")
     st.dataframe(leaderboard, use_container_width=True, hide_index=True)
 
-    st.subheader("Score Chart")
-    chart_df = leaderboard.set_index("Player")["Points"]
-    st.bar_chart(chart_df)
+    # st.subheader("Score Chart")
+    # chart_df = leaderboard.set_index("Player")["Points"]
+    # st.bar_chart(chart_df)
 
 with tab2:
     selected_player = st.selectbox(
