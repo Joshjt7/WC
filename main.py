@@ -27,7 +27,7 @@ STAGE_LABELS = {
     "W": "Winner"
 }
 
-STAGE_ORDER = ["Group Stage", "Round of 16", "Quarterfinal", "Semifinal", "Runner-up", "Winner"]
+STAGE_ORDER = ["Group Stage", "Round of 32","Round of 16", "Quarterfinal", "Semifinal", "Runner-up", "Winner"]
 
 @st.cache_data
 def load_data():
